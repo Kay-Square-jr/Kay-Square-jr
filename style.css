@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom,  rgb(233, 23, 23), rgba(200, 20, 15, 0.4));
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 400;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.italy {
+    font-style: oblique;
+}
+
+#SHIT {
+    text-decoration: line-through;
+} 
+
+h1:hover {
+    color: darkturquoise;
+}
+
+#cone {
+    height: 300px;
+    width: 60px;background-image: conic- ;
+}
+
+.far {
+    color: darkgreen;
+    text-align:center ; 
+    font-style: italic; 
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+h2 {
+    color: gold;
+}
+
+.subtitle {
+    color: maroon;
+}
+
+/* .nav:link{
+    color: red;
+} */
+
+.nav:visited{
+    color: palegreen;
+} 
+
+
+textarea + button  {
+    color: darkorange;
+}
+
+button + button {
+    color: darkorange;
+}
+
+.container {
+    color: rgb(250, 250, 250);
+    margin: 50px;
+    height: 300px ;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.a {
+    background: rgb(36, 130,39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px; 
+} 
+
+
+img{ 
+    border: 10px solid blueviolet;
+    flex-direction: r;
+    float: left;
+} 
+/* 
+#days{
+    height: 500px;
+    width: 800px;
+    background-image: url(FB_IMG_1701013846599.jpg);
+    background-size: cover;
+} */

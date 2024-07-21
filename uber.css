@@ -1,0 +1,472 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ body {
+     background: black;
+ }
+
+ .header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 10px;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-top: 10px;
+ }
+
+ .header p {
+     height: 30px;
+     width: 70px;
+     color: white;
+     border: 1px solid black;
+     border-radius: 50px;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+ }
+
+ #up {
+     width: 110px;
+     margin-right: 10px;
+ }
+
+ .left #uber {
+     font-size: 24px;
+     margin-right: 25px;
+ }
+
+
+ .left {
+     align-items: flex-start;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .left p {
+     font-size: 16px;
+     display: flex;
+     gap: 10px;
+     flex-direction: row;
+ }
+
+ .left p:hover {
+     background: grey;
+     align-content: center;
+     justify-content: center;
+     padding-top: 5px;
+ }
+
+ .right {
+     align-items: center;
+     justify-content: space-between;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+ }
+
+ .right p {
+     font-size: 16px;
+ }
+
+ .right p:hover {
+     background: grey;
+     align-content: center;
+     justify-content: center;
+     padding-top: 5px;
+ }
+
+ .main-1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     justify-content: center;
+     padding: 70px;
+ }
+
+ .text-1 {
+     width: 100%;
+ }
+
+ .text-1 h1 {
+     text-align: left;
+     font-size: 54px;
+     color: white;
+     justify-content: left;
+     margin-bottom: 20px;
+     width: 75%;
+     font-weight: bolder;
+ }
+
+ .text-1 p {
+     font-size: 17px;
+     margin-top: 20px;
+     color: white;
+     padding-bottom: 20px;
+ }
+
+ .input {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .input input {
+     width: 65%;
+     margin-bottom: 10px;
+     border: solid white;
+     height: 53px;
+     border-radius: 8px;
+     padding-left: 35px;
+ }
+
+ .input input:focus {
+     width: 64.5%;
+ }
+
+ ::placeholder {
+     font-size: 17px;
+     font-weight: 400;
+ }
+
+ .text-1 button {
+     margin-top: 20px;
+     width: 140px;
+     text-align: center;
+     justify-content: left;
+     color: black;
+     padding: 10px;
+     font-size: 15px;
+     font-weight: 450;
+     height: 60px;
+     border-radius: 10px;
+     transition: all 300ms ease;
+ }
+
+ .text-1 button:hover {
+     background-color: rgb(196, 190, 190);
+     scale: (1.1);
+     cursor: pointer;
+ }
+
+ .main-2 {
+     background: white;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .img-2 {
+     margin-top: 70px;
+     margin-left: 80px;
+ }
+
+ .text-2 h1 {
+     text-align: left;
+     font-size: 51px;
+     padding: 10px;
+     margin-left: 140px;
+     margin-top: 150px;
+     margin-right: 80px;
+     font-weight: bolder;
+ }
+
+ .text-2 .p {
+     text-align: left;
+     color: rgb(92, 86, 86);
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 140px;
+     margin-top: 20px;
+     width: 65%;
+     text-align: justify;
+     margin-bottom: 20px;
+ }
+
+ .aside {
+     display: flex;
+     gap: 20px;
+     margin: 2rem, 3rem;
+ }
+
+ .aside .ok {
+     font-size: 20px;
+     border: 1px solid black;
+     background: black;
+     color: white;
+     text-decoration: none;
+     width: 170px;
+     height: 55px;
+     border-radius: 8px;
+     text-align: center;
+     padding-top: 15px;
+     margin-left: 150px;
+     text-align: center;
+     transition: all 300ms ease;
+ }
+
+ .aside .ok:hover {
+     background: rgb(92, 86, 86);
+ }
+
+ .aside a {
+     padding-top: 21px;
+     color: black;
+     text-decoration: none;
+     border-bottom: 1px solid rgb(211, 199, 199);
+     transition: all 0.5s ease;
+ }
+
+ .aside a:hover {
+     border-bottom: 1px solid black;
+ }
+
+ .main-3 {
+     display: flex;
+     flex-direction: row;
+     background: white;
+ }
+
+ .text3 h1 {
+     text-align: left;
+     font-size: 51px;
+     padding: 10px;
+     margin-right: 140px;
+     margin-top: 150px;
+     margin-left: 80px;
+     font-weight: bolder;
+     width: 500px;
+ }
+
+ .text3 p {
+     text-align: left;
+     color: rgb(92, 86, 86);
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 80px;
+     margin-top: 20px;
+     width: 65%;
+     text-align: justify;
+     margin-bottom: 20px;
+ }
+
+ .uside {
+     display: flex;
+     gap: 20px;
+     margin: 2rem, 3rem;
+ }
+
+ .uside .uk {
+     font-size: 20px;
+     border: 1px solid black;
+     background: black;
+     color: white;
+     text-decoration: none;
+     width: 170px;
+     height: 55px;
+     border-radius: 8px;
+     text-align: center;
+     padding-top: 15px;
+     margin-left: 80px;
+     text-align: center;
+     transition: all 300ms ease;
+ }
+
+ .uside .uk:hover {
+     background: rgb(92, 86, 86);
+ }
+
+ .uside a {
+     padding-top: 21px;
+     color: black;
+     text-decoration: none;
+     border-bottom: 1px solid rgb(211, 199, 199);
+     transition: all 0.5s ease;
+ }
+
+ .uside a:hover {
+     border-bottom: 1px solid black;
+ }
+
+ .image3 {
+     margin-top: 90px;
+     margin-right: 120px;
+     padding: 10px;
+ }
+
+ .main4 {
+     background: white;
+ }
+
+ .header3 h2 {
+     padding-left: 70px;
+     padding-top: 100px;
+     font-size: 39px;
+     background: rgb(241, 236, 236);
+ }
+
+ .scan {
+     background: rgb(241, 236, 236);
+     padding: 40px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+
+ .scan1 {
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     width: 500px;
+     margin-left: 50px;
+     border: 1px solid white;
+     background: white;
+ }
+
+ .scan1 {
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     width: 500px;
+     margin-left: 50px;
+     border: 1px solid white;
+     background: white;
+     border-radius: 8px;
+ }
+
+ .scan1:hover {
+     transform: scale(1.2);
+ }
+
+ .qrmes {
+     text-align: center;
+     justify-content: center;
+     font-size: 25px;
+ }
+
+ .footer {
+     background: black;
+     height: 100%;
+     padding-top: 110px;
+     padding-left: 100px;
+ }
+
+ .footer h1 {
+     font-size: 27px;
+     color: white;
+     padding-bottom: 20px;
+ }
+
+ .footer .png {
+     color: white;
+     padding-top: 30px;
+     padding-bottom: 40px;
+     border: 1px solid black;
+     width: 150px;
+ }
+
+ .footer .png:hover {
+     border-bottom-color: white;
+ }
+
+ .uls {
+     display: flex;
+     flex-direction: row;
+     padding-top: 40px;
+     gap: 200px;
+     justify-content: left;
+     text-align: left;
+ }
+
+ .uls h3 {
+     color: white;
+     padding-bottom: 25px;
+ }
+
+ .uls p {
+     color: white;
+     padding-bottom: 20px;
+     justify-content: left;
+     text-align: left;
+ }
+
+ .uls p:hover {
+     color: grey;
+     cursor: pointer;
+ }
+
+ .imgd {
+     display: flex;
+     flex-direction: row;
+     background: black;
+     height: 100%;
+     gap: 40px;
+     padding-left: 100px;
+     padding-bottom: 50px;
+     padding-top: 30px;
+ }
+
+ .imgd figure {
+     width: 150px;
+ }
+
+ .icon {
+     display: flex;
+     flex-direction: row;
+     gap: 120px;
+     padding-left: 100px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background: black;
+     color: white;
+ }
+
+ .other {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 310px;
+    padding-right: 100px;
+ }
+
+ .ear {
+    color: grey;
+    padding-bottom: 500px;
+    padding-left: 100px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    width: 100%;
+ }
+
+ .germ {
+    /* display: flex;
+    flex-direction: row; */
+    padding-left: 760px;
+    gap: 15px;
+    padding-right: 100px ;
+    flex-wrap: nowrap;
+ }
+
+.germ p {
+    padding-left: 10px;
+    color: grey;
+}
+
+ .germ p:hover {
+    color: rgb(29, 28, 28);
+    cursor: pointer;
+ }

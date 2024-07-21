@@ -1,0 +1,174 @@
+body {
+    background: yellow;
+    text-transform: capitalize;
+    font: 300;
+}
+
+figcaption {
+    text-align: start;
+    margin: 20px;
+}
+
+input {
+    border: 1px transparent black;
+    border-radius: 80px;
+    display: inline;
+    height: 40px;
+    width: 200px;
+}
+
+aside {
+    background: black;
+    width: 30px;
+    height: 5%;
+    overflow-x: hidden;
+    position: fixed;
+    display: flex;
+    transition: all 300ms ease;
+}
+
+aside:hover {
+    width: 300px;
+    height: 45%;
+}
+
+#d {
+    color: white;
+    text-align: center;
+}
+
+li{
+    color: white;
+    padding: 25px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all 20ms ease;
+    border: 1px transparent black;
+    border-radius: 80px;
+    display: flex;
+    text-align: center;
+    
+}
+
+li:hover {
+    background: white;
+    color: black;
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    transition: all 300ms;
+}
+
+h1:hover {
+    color: rgb(156, 156, 243);
+    transform: scale(1.2);
+}
+
+a {
+    color: rgb(36, 13, 240);
+    text-decoration: none;
+}
+
+li {
+    transition: all 300ms;
+}
+
+li:hover {
+    color: rgb(170, 211, 22);
+    transform: scale(1.1);
+}
+
+td {
+    text-align: center;
+}
+
+
+a:visited {
+    color: rgb(245, 13, 13);
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#days {
+    display: flex;
+    flex-direction: row;
+}
+
+#tshwala {
+    flex: none;
+    width: 700px;
+}
+
+#caption {
+    color:  rgb(31, 28, 28) ;
+    font-size: 25px;
+}
+
+
+
+h2, h3 {
+    color: rgb(47, 47, 161); 
+    transition: all 300ms;
+}
+
+h2:hover {
+    color: rgb(156, 156, 243);
+    transform: scale(1.2);
+}
+
+h3:hover {
+    color: rgb(156, 156,243);
+    transform: scale(1.1);
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}
+
+#am {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#wale {
+    flex: none;
+}
+
+#end {
+    display: inline;
+    align-content: flex-end;
+}
+
+#ond {
+    display: inline;
+    align-content: flex-start;
+}
+
+@media  (max-width:900px) {
+    #days {
+       flex-direction: column;
+       text-align : center;      
+    }
+
+    #tshwala {
+        text-align : center;      
+        flex-direction: column;
+    }
+
+    #caption {
+        text-align: center;
+    }
+
+    .p {
+        text-align: center;
+    }
+
+    ta
+}
